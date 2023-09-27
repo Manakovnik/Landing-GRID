@@ -1,0 +1,415 @@
+@media (max-width:1200px) {
+    
+    .banner__title {
+        font-size: 50px;
+        line-height: 50px;
+        margin-bottom: 16px;
+    }
+
+    .banner__custom--col {
+        padding-right: 70px;
+    }
+
+    .banner__custom--right {
+        padding-top: 117px;
+        padding-left: 32px;
+    }
+
+    .courses__descr {
+        min-height: 120px;
+    }
+}
+
+
+@media (max-width: 992px) {
+
+    .banner {
+        padding-bottom: 7px;
+    }
+
+    .benefits {
+        padding-bottom: 158px;
+    }
+
+    .benefits__title {
+        margin-right: 15px;
+    }
+    
+    .benefits__title--img {
+        padding-left: 255px;
+        background-size: 29%;
+        background-position-y: 25px;
+    }
+
+    .benefits__descr {
+        margin-right: 0;
+    }
+
+    .benefits__col--cards {
+        flex-wrap: wrap;
+    }
+
+    .benefits__img--descr {
+        padding: 0;
+        background-size: auto;
+        background-position: top left;
+        padding-top: 91px;
+        margin-right: -2px;
+    }
+
+    .prepods {
+        padding-bottom: 47px;
+    }
+
+    .prepods__card {
+        margin-bottom: 26px
+    }
+
+    .prepods__descr {
+        padding-right: 0;
+        margin-right: -2px;
+    }
+
+    .courses__descr {
+        min-height: 192px;
+        margin-bottom: 26px;
+    }
+
+    .courses__time {
+        width: 105px;
+    }
+
+    .courses__time--hours {
+        padding-left: 30px;
+    }
+
+    .courses__card--title {
+        margin-bottom: 8px;
+    }
+
+    .courses__btn {
+        width: 195px;
+    }
+}
+
+
+
+@media (max-width:768px) {
+    .header__row {
+       padding-top: 6px;
+    }
+ 
+    .courses__descr {
+        min-height: 195px;
+    }
+}
+
+
+@media (max-width:767px) {
+    .banner__custom--right {
+      display: none;
+    }
+
+    .header__row {
+        min-height: 132px;
+    }
+
+    .header__col--left {
+       justify-content: center;
+       padding-top: 7px;
+       padding-left: 21px;
+    }
+          
+    .header__list {
+        justify-content: space-between;
+    }
+    .header__col--right {
+        padding: 0 44px;
+        margin-bottom: 5px;
+    }
+
+    .banner {
+        padding-bottom: 5px;
+    }
+
+    .banner__custom--col {
+        padding-top: 77px;
+    }
+
+    .banner__descr {
+        margin-right: 102px;
+        margin-bottom: 63px;
+        
+    }
+
+    .benefits {
+        padding-bottom: 155px;
+    }
+
+    .benefits__title--img {
+        display: flex;
+        flex-direction: column;
+        padding-left: 195px;
+        padding-right: 20px;
+        background-size: 28%;
+        background-position-y: 0; 
+    }
+    .benefits__title {
+        padding-right: 100px;
+        margin-bottom: 17px;
+    }
+    .benefits__descr {
+        padding-left: 3px;
+    }
+
+    .benefits__col--cards {
+        padding-left: 0;
+    }
+
+    .benefits__row--cards {
+        margin-right: -24px;
+        margin-left: -7px;
+    }
+
+    .courses__col {
+        padding-right: 7px;
+        padding-left: 23px;
+    }
+
+    .courses__col--custom {
+     
+        padding-right: 1px;
+    }
+
+    .courses__card--title {
+        line-height: 23px;
+        padding-right: 10px;
+        margin-bottom: 11px;
+    }
+
+    .courses__descr {
+        padding-right: 30px;
+        min-height: 266px;
+        margin-bottom: 31px;
+    }
+
+    .courses__btn {
+        width: 180px;
+    }
+
+    .footer__col--lower {
+        margin-right: 65px;
+    }
+}
+
+
+@media (max-width:540px) {
+   
+    .header__row {
+        min-height: 80px;
+        flex-wrap: nowrap;
+        padding-top: 0;
+        padding-left: 15px;
+    }
+
+    .header__link {
+      padding-left: 0;
+    }
+
+    .header__col--left {
+        padding: 0;
+        margin-left: -18px;
+        margin-bottom: 3px;
+    }
+
+
+    .burger--active .burger__line {
+        background-color: #2E2B44;
+        transition: transform 0.3s ease-in-out, top 0.3s ease-in-out, left 0.3s ease-in-out;
+      }
+     
+     
+    .stop-scroll {
+      overflow: hidden;
+    }
+    
+      .burger {
+        display: flex;
+        justify-content: flex-end;
+      }
+
+      .header__nav {
+        flex-direction: column;
+        align-items: flex-start;
+        position: absolute;
+        top: 0;
+        right: 40px;
+        width: 50%;
+        min-width: 175px;
+        height: 300px;
+        z-index: 1000;
+        padding: 20px;
+        padding-top: 30px;
+        overflow-y: auto;
+        color: black;
+        background-color: #FFFFFF;
+        visibility: hidden;
+        transform: translateY(-120%);
+        transition: transform 0.3s ease-in-out, visibility 0.3s ease-in-out;
+      }
+
+      .header__item {
+        margin-bottom: 30px;
+      }
+    
+      .header__nav .header__list {
+        flex-direction: column;
+      }
+
+    .header__nav--active {
+        visibility: visible;
+        transform: none;
+        position: fixed;
+        z-index: 99999999;
+    }
+
+    .banner__custom--col {
+        padding-top: 50px;
+        padding-left: 15px;
+        padding-right: 0;
+    }
+
+    .banner__title {
+        font-size: 30px;
+        line-height: 30px;
+        margin-bottom: 5px;
+    }
+
+    .banner__descr {
+        margin-right: 0;
+        margin-bottom: 44px;
+        font-size: 16px;
+        line-height: 21px;
+    }
+ 
+    .banner__button {
+        width: 213px;
+        height: 60px;
+        font-size: 16px;
+        line-height: 21px;
+        margin-bottom: 45px;
+    }
+
+    .benefits__row {
+        padding-top: 50px;
+    }
+    
+    .benefits__title--img {
+        background-image: none;
+        padding-left: 7px;
+    }
+
+    .benefits__title {
+        font-size: 20px;
+        line-height: 26px;
+        padding-right: 0;
+        margin-bottom: 2px;
+    }
+
+    .benefits__row--cards {
+        flex-direction: column;
+    }
+
+    .benefits__col--cards {
+        margin-bottom: 35px;
+    }   
+
+    .benefits__img--descr {
+        background-position: left;
+        padding-top: 0px;
+        padding-left: 110px;
+    }
+
+    .benefits__col {
+        padding-left: 7px;
+    }
+
+    .benefits {
+        padding-bottom: 13px;
+    }
+
+    .prepods__title {
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    .prepods {
+        padding-top: 48px;
+        padding-bottom: 20px;
+        margin-bottom: 41px;
+    }
+
+    .prepods__container {
+        padding-left: 9px;
+    }
+
+    .prepods__title {
+        padding-left: 6px;
+    }
+
+    .prepods__photo {
+        margin-bottom: 31px;
+        width: 103%;
+    }
+
+    .courses {
+        padding-bottom: 21px;
+    }
+
+    .courses__title {
+        font-size: 20px;
+        line-height: 20px;
+        margin-bottom: 27px;
+    }
+
+    .courses__container {
+        padding-right: 6px;
+        padding-left: 7px;
+    }
+
+    .courses__time--hours {
+        margin-top: -3px;
+    }
+
+    .courses__card--title {
+        padding-right: 30px;
+    }
+
+    .courses__card--3d {
+        padding-right: 92px;
+    }
+
+    .courses__descr {
+        padding-right: 29px;
+    }
+
+    .courses__descr--fourth {
+        margin-bottom: 53px;
+    }
+
+    .courses__btn {
+        width: 195px;
+    }
+
+    .courses__col--img {
+        margin-bottom: 1px;
+    }
+
+    .courses__col--custom {
+        margin-bottom: 28px;
+    }
+
+    .footer__col--lower {
+        margin-right: 48px;
+    }
+}
